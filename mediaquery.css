@@ -1,0 +1,40 @@
+
+
+/* 576 SCREEN SIZE */
+@media screen and (max-width: 576px){
+    body{
+        padding-top: 10px;
+        
+    }
+    .header{
+      display: flex;
+      flex-direction: column;
+    }
+    .header .txt{
+     text-align: left;
+    align-self: unset;
+     margin-left: 0;
+    } 
+    .pic{
+    display: inline-block;
+    margin: auto;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 0;
+    }
+    .pic img{
+    display: block;
+    width: 140px;
+    height: 140px;
+    border-radius: 0;
+    }
+    .card .contact{
+    height: 50px;
+    background-color: black;
+    }
+    
+
+
+}
+
+
